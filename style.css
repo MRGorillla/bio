@@ -1,0 +1,92 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('image/bio.png') no-repeat center center/cover;
+    background-color: #1f1f1f;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: #1f1f1f;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #bbbbbb !important;
+}
+
+section {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: none;
+}
+
+.list-group-item:hover {
+    background-color: #3a3a3a;
+}
+
+a {
+    color: #1e90ff;
+}
+
+a:hover {
+    color: #63a4ff;
+}
+
+.social-media a {
+    color: #1e90ff;
+}
+
+.social-media a:hover {
+    color: #63a4ff;
+}
